@@ -1,12 +1,53 @@
 body {
-  color: #515076;
+  font-family: Arial, Helvetica, sans-serif;
   background-image: url(../images/bg_1.png);
   background-repeat: no-repeat;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
 }
-.none_style {
+.title {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 78px;
+}
+.products-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-img {
+.li-style {
+  padding: 25px;
+  margin: 45px;
+  width: 340px;
+  height: 573px;
+  background-color: #f7f7fa;
+}
+.img-style {
   width: 290px;
   height: 245px;
+}
+.for-normal-skin {
+  display: block;
+  color: #a5a3b9;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.name-style,
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.cost {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 161px;
+}
+.ul-nonestyle {
+  padding-left: 0;
+  list-style-position: inside;
 }
