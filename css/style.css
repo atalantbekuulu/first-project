@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
   background-image: url(../images/bg_1.png);
   background-repeat: no-repeat;
+  background-position: 40% 5%;
   font-size: 13px;
   line-height: 18px;
   color: #515076;
@@ -13,13 +17,17 @@ body {
   line-height: 78px;
 }
 .products-list {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 1110px;
 }
-.li-style {
+.card {
   padding: 25px;
-  margin: 45px;
   width: 340px;
   background-color: #f7f7fa;
 }
@@ -46,7 +54,6 @@ body {
   line-height: 27px;
 }
 .cost {
-  float: right;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -55,4 +62,8 @@ body {
   padding-left: 0;
   margin-bottom: 25px;
   list-style-position: inside;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
 }
