@@ -22,7 +22,14 @@ body {
   display: flex;
   justify-content: center;
 }
-
+.title {
+  display: inline-block;
+  margin: 220px auto 110px;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 78px;
+}
 .products-list {
   justify-content: center;
   display: flex;
@@ -39,7 +46,8 @@ body {
   background-color: #f7f7fa;
 }
 .img-style {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   margin-bottom: 30px;
 }
 .category {
@@ -50,7 +58,7 @@ body {
   line-height: 24px;
   font-weight: 400;
 }
-.name-of-product {
+.name-product {
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
@@ -65,7 +73,7 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-.ul-nonestyle {
+.property-list {
   padding-left: 0;
   margin-bottom: 25px;
   list-style-position: inside;
